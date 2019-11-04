@@ -1,0 +1,12 @@
+html,body {box-sizing: border-box; font-family: 'Roboto',sans-serif;}
+form, .wrapper-info {
+    width: 350px;
+    margin: 0 auto;
+    padding: 3rem 0;
+    background: linear-gradient(to bottom, #fcc640 0%, #fe8c36 100%); padding: 3rem 1rem; border-radius: 7px;
+}
+input {width: 320px; display: block; border: none; border-radius: 7px; padding: 15px;}
+.info {margin-bottom: 15px; margin-top: 5px;}
+input[type="submit"], button {margin-top: 35px; width: 100%; background: #d4d4d4;;}
+button {border: none; border-radius: 7px; padding: 1rem; cursor: pointer;}
+button:hover, input[type="submit"]:hover {background: #01B0F1; color: #fff;}
